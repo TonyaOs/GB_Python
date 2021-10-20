@@ -1,0 +1,8 @@
+x = int(input('Введите время в секундах: '))
+second = x%60
+minute = x//60
+hours = minute//60
+minute_ost = minute%60
+
+time = '{}:{}:{}'.format(hours, minute_ost, second)
+print (time)
