@@ -18,7 +18,7 @@ def func1():
     for el in count(num):
         if el <= stop:
             print(el)
-    else: break
+        else: break
 
 func1()
 
